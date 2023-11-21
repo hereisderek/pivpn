@@ -43,7 +43,8 @@ BASE_DEPS+=(bsdmainutils bash-completion)
 
 BASE_DEPS_ALPINE=(git grep bind-tools newt net-tools bash-completion coreutils)
 BASE_DEPS_ALPINE+=(openssl util-linux openrc iptables ip6tables coreutils sed)
-BASE_DEPS_ALPINE+=(perl libqrencode-tools)
+BASE_DEPS_ALPINE+=(perl)
+#BASE_DEPS_ALPINE+=(perl libqrencode-tools)
 
 # Dependencies that where actually installed by the script. For example if the
 # script requires grep and dnsutils but dnsutils is already installed, we save
